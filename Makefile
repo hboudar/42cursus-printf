@@ -1,27 +1,25 @@
-SRC = ft_printf.c ft_print_str.c ft_print_n.c ft_print_char.c
-OBJS = ${SRC:.c=.o}
-LIBC = ar -rcs
-CFLAGS = -Wall -Wextra -Werror
-CC = cc
-RM = rm -f
-NAME = libftprintf.a
+C_FILES	=	ft_printf.c  ft_is_flag.c ft_print_c.c  ft_print_s.c\
+			ft_print_p.c  ft_print_x.c ft_print_u.c  ft_print_di.c\
+			ft_print_sp.c ft_print_xx.c ft_precision_di.c
 
-%.o: %.c ft_printf.h
-	${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
+O_FILES =	${C_FILES:.c=.o}
+H_FILE	=	ft_printf.h
+CFLAGS	=	-Wall -Wextra -Werror
+NAME	=	libftprintf.a
+CC		=	cc
 
-${NAME}: ${OBJS}
-		${LIBC} ${NAME} ${OBJS}
+all bonus: ${NAME}
 
-all: ${NAME}
+%.o: %.c ${H_FILE}
+	${CC} ${CFLAGS} -c $< -o $@
 
-bonus: $(NAME)
+${NAME}: ${O_FILES}
+		ar -rcs $@ $^
 
 clean:
-	${RM} ${OBJS}
+	rm -f ${O_FILES}
 
 fclean: clean
-		${RM} ${NAME}
+		rm -f ${NAME}
 
 re: fclean all
-
-.PHONY: clean fclean all bonus re
