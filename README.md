@@ -54,5 +54,13 @@ make && gcc X
 	<ul/>
  ### examples :
 ```C
-ft_printf("%+10d", 1337);
+printf("%-7d\n", 1337);
+printf("%07s\n", "1337");
+printf("%+7d\n", 1337);
+```
+### result : of ./a.out | cat -e
+```shell
+1337   $
+0001337$
+  +1337$
 ```
