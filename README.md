@@ -17,7 +17,7 @@
 
 # 💡 Mandatory Part with Bonus<a name = "m"></a>
 
-> _This Function :._
+> _This Function :_
     is used to print formatted output in numerous ways to the standard output stdout.
 
 ### Requirements
