@@ -48,13 +48,12 @@ make && gcc X
 -------
 # 💡 Bonus Part <a name = "b"></a>
 
-> _As a <code>bonus</code> to the Mandatory requirement, the function should has :._
+> _As a <code>bonus</code> to the Mandatory requirement, the function should :._
 	<ul>
   	<li>
     	<ul>
-         <li>Make the player lose when they touch an enemy patrol.</li>
-         <li>Add some sprite animation.</li>
-         <li>Display the movement count directly on screen instead of writing it in the shell.</li>
+         <li>• Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.</li>
+         <li>• Manage all the following flags: ’# +’ (Yes, one of them is a space)</li>
     	</ul>
   	</li>
    <ul/>
