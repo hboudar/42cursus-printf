@@ -52,4 +52,7 @@ make && gcc X
          <li>Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.</li>
          <li>Manage all the following flags: ’# +’ (Yes, one of them is a space)</li>
 	<ul/>
-
+ ### examples :
+```C
+ft_printf("%+10d", 1337);
+```
