@@ -14,9 +14,8 @@
 ## 📜 Table of Contents
 
 - [💡 Mandatory Part](#m)
-- [💡 Bonus Part](#b)
 
-# 💡 Mandatory Part <a name = "m"></a>
+# 💡 Mandatory Part with Bonus<a name = "m"></a>
 
 > _This Function :._
     is used to print formatted output in numerous ways to the standard output stdout.
@@ -46,7 +45,7 @@ int  main()
 make && gcc X
 ```
 -------
-# 💡 Bonus Part <a name = "b"></a>
+# The Bonus
 
 > _As a <code>bonus</code> to the Mandatory requirement, the function should :_
 	<ul>
@@ -54,14 +53,3 @@ make && gcc X
          <li>Manage all the following flags: ’# +’ (Yes, one of them is a space)</li>
 	<ul/>
 
-**1. To use the function in your code, simply include its header:**
-
-```C
-#include "so_long_bonus.h"
-```
-
-#### 📋 Testing
-> _Simply run this command (add as an argument a map from maps with a mapb...):_
-```shell
-make bonus && ./so_long_bonus maps/mapb.ber
-```
