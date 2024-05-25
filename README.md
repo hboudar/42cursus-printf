@@ -52,7 +52,7 @@ make && gcc X
          <li>Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.</li>
          <li>Manage all the following flags: ’# +’ (Yes, one of them is a space)</li>
 	<ul/>
- ### examples :
+ ### main example :
 ```C
 #include <stdio.h>
 
@@ -64,8 +64,9 @@ int main()
     return 0;
 }
 ```
-### result : of ./a.out | cat -e
+### Running :
 ```shell
+./a.out | cat -e
 1337   $
 0001337$
   +1337$
