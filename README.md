@@ -27,9 +27,11 @@ The function is written in C language and thus needs the **`gcc` compiler** and 
 
 ### Instructions
 
-**1. To use the function in your code, simply include a main() and its header:**
+**1. To use the function in your code, simply include a main() with its header:**
 
-
+```C
+#include "ft_printf.h"
+```
 ```C
 int  main()
 {
@@ -37,14 +39,11 @@ int  main()
   return (0);
 }
 ```
-```C
-#include "ft_printf.h"
-```
 
 #### 📋 Testing
-> _Simply run this command :_
+> _Simply run this command (change X with the file of the main function):_
 ```shell
-make && ./ft_printf
+make && gcc X
 ```
 -------
 # 💡 Bonus Part <a name = "b"></a>
