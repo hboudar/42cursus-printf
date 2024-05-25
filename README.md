@@ -54,9 +54,15 @@ make && gcc X
 	<ul/>
  ### examples :
 ```C
-printf("%-7d\n", 1337);
-printf("%07s\n", "1337");
-printf("%+7d\n", 1337);
+#include <stdio.h>
+
+int main()
+{
+    printf("%-7d\n", 1337);
+    printf("%07s\n", "1337");
+    printf("%+7d\n", 1337);
+    return 0;
+}
 ```
 ### result : of ./a.out | cat -e
 ```shell
