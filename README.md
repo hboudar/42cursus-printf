@@ -50,11 +50,9 @@ make && gcc X
 
 > _As a <code>bonus</code> to the Mandatory requirement, the function should :._
 	<ul>
-  	<li>
          <li>Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.</li>
          <li>Manage all the following flags: ’# +’ (Yes, one of them is a space)</li>
-  	</li>
-   <ul/>
+	<ul/>
 
 **1. To use the function in your code, simply include its header:**
 
