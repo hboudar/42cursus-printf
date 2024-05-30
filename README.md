@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-	<b><i>A 2D game escape adventure</i></b><br>
+	<b><i>printing data in the stdout</i></b><br>
 </p>
 <p align="center">
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Cloneg7/printf?color=lightblue" />
